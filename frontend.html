@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Terminal</title>
+<style>
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+}
+
+#terminal {
+  padding: 20px;
+}
+
+input {
+  background: black;
+  border: none;
+  color: #00ff00;
+  font-family: monospace;
+  outline: none;
+  width: 90%;
+}
+</style>
+</head>
+
+<body>
+
+<div id="terminal">
+  <div>Welcome to Web Terminal</div>
+  <div>$ <input id="command" autofocus /></div>
+</div>
+
+<script>
+const input = document.getElementById("command");
+const terminal = document.getElementById("terminal");
+
+input.addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    let cmd = input.value;
+
+    let output = document.createElement("div");
+
+    if (cmd === "ls") {
+      output.textContent = "file1.txt  file2.log  script.sh";
+    } 
+    else if (cmd === "whoami") {
+      output.textContent = "guest";
+    }
+    else if (cmd === "date") {
+      output.textContent = new Date();
+    }
+    else {
+      output.textContent = "command not found";
+    }
+
+    terminal.insertBefore(output, input.parentElement);
+    input.value = "";
+  }
+});
+</script>
+
+</body>
+</html>
