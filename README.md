@@ -4,7 +4,11 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 
 ![Terminal Portfolio](https://img.shields.io/badge/Status-Production--Ready-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
+![CSS Badge](https://img.shields.io)
+![javaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
+![html](https://img.shields.io/badge/any%20text-you%20like-blue)
+ 
 
 ## ✨ Features
 
