@@ -25,7 +25,7 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 - [Quick Start](#-quick-start)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Available Commands](#available-commands)
+- [Available Commands](#Available-Commands)
 - [Deployment](#deployment)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
@@ -938,6 +938,3 @@ docker stats yogaganapathi-terminal
 4. Test with Docker
 5. Submit a pull request
 
-## 📄 License
-
-MIT License - feel free to use this project for your portfolio!
