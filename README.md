@@ -58,7 +58,7 @@ Before you begin, ensure you have the following installed:
 
 #### Linux/Mac
 ```bash
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 cd terminal-portfolio
 chmod +x deploy.sh
 ./deploy.sh deploy
@@ -66,7 +66,7 @@ chmod +x deploy.sh
 
 #### Windows
 ```cmd
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 cd terminal-portfolio
 deploy.bat deploy
 ```
@@ -77,7 +77,7 @@ deploy.bat deploy
 
 ```bash
 # Clone the repository
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 cd terminal-portfolio
 
 # Build and run with Docker Compose
@@ -94,10 +94,10 @@ docker run -d -p 80:80 --name terminal-portfolio yogaganapathi-terminal
 
 ```bash
 # HTTPS (recommended for most users)
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 
 # SSH (if you have SSH keys set up)
-git clone git@github.com:yogitech2000/Yogi_portfolio
+git clone git@github.com:yogitech2000/Yogi_portfolio.git
 
 # Or download ZIP from GitHub
 # Extract and navigate to the folder
@@ -235,7 +235,7 @@ docker-compose down
 4. **Deploy Application**
    ```bash
    # Clone repository
-   git clone https://github.com/yogitech2000/Yogi_portfolio
+   git clone https://github.com/yogitech2000/Yogi_portfolio.git
    cd terminal-portfolio
 
    # Deploy
@@ -265,7 +265,7 @@ docker-compose down
    sudo systemctl enable docker
    sudo usermod -aG docker $USER
 
-   git clone https://github.com/yogitech2000/Yogi_portfolio
+   git clone https://github.com/yogitech2000/Yogi_portfolio.git
    cd terminal-portfolio
    ./deploy.sh deploy
    ```
@@ -290,7 +290,7 @@ docker-compose down
    sudo systemctl enable docker
    sudo usermod -aG docker $USER
 
-   git clone https://github.com/yogitech2000/Yogi_portfolio
+   git clone https://github.com/yogitech2000/Yogi_portfolio.git
    cd terminal-portfolio
    ./deploy.sh deploy
    ```
@@ -544,7 +544,7 @@ terminal-portfolio/
 
 ```bash
 # Clone repository
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 cd terminal-portfolio
 
 # Run with live reload (requires Node.js)
@@ -771,7 +771,7 @@ sudo usermod -aG docker $USER
 #### 4. Deploy the Application
 ```bash
 # Clone or upload your project files
-git clone https://github.com/yogitech2000/Yogi_portfolio
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
 cd terminal-portfolio
 
 # Build and run with Docker Compose
