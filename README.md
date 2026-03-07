@@ -6,7 +6,6 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
 ![javaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
-![HTML](https://img.shields.io/badge/Status-Production--Ready-green)
  
 
 ## ✨ Features
@@ -33,7 +32,6 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 - [Development](#development)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ##  Prerequisites📋
 
@@ -90,7 +88,7 @@ docker build -t yogaganapathi-terminal .
 docker run -d -p 80:80 --name terminal-portfolio yogaganapathi-terminal
 ```
 
-## 📦 Installation
+## Installation 📦
 
 ### Step 1: Clone the Repository
 
@@ -125,7 +123,7 @@ ls -la
 chmod +x deploy.sh health-check.sh
 ```
 
-## 🎮 Usage
+## Usage 🎮
 
 ### Accessing the Portfolio
 
@@ -149,7 +147,7 @@ The portfolio simulates a Linux terminal with the following features:
 - **Auto-scroll** keeps latest content visible
 - **Click anywhere** to focus input field
 
-## 📖 Available Commands
+## Available Commands 📖
 
 | Command | Description |
 |---------|-------------|
@@ -172,7 +170,7 @@ visitor@yogaganapathi:~$ experience
 visitor@yogaganapathi:~$ social
 ```
 
-## 🚀 Deployment
+## Deployment 🚀
 
 ### Local Deployment
 
@@ -306,7 +304,7 @@ docker-compose down
 - [ ] **Backups** configured (if needed)
 - [ ] **Auto-scaling** considered for high traffic
 
-## 🧪 Testing
+## Testing 🧪
 
 ### Automated Testing
 
@@ -358,7 +356,7 @@ curl -s http://localhost > /dev/null && echo "Load test passed"
 docker stats --no-stream yogaganapathi-terminal
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting 🔧
 
 ### Common Issues & Solutions
 
@@ -523,7 +521,7 @@ If you encounter issues not covered here:
    - Check GitHub Issues for similar problems
    - Create a new issue with detailed information
 
-## 💻 Development
+## Development 💻
 
 ### Project Structure
 
@@ -589,7 +587,7 @@ To add new commands to the terminal:
 - **Animations**: Modify keyframes and transition properties
 - **Layout**: Adjust responsive breakpoints and sizing
 
-## ⚙️ Configuration
+## Configuration ⚙️
 
 ### Environment Variables
 
@@ -617,7 +615,7 @@ The `nginx.conf` includes:
 - **Multi-platform**: Supports AMD64, ARM64
 - **Security**: Non-root container execution
 
-## 🤝 Contributing
+## Contributing 🤝
 
 We welcome contributions! Here's how to get started:
 
@@ -649,10 +647,6 @@ We welcome contributions! Here's how to get started:
 - [ ] **Performance optimizations**
 - [ ] **Additional deployment platforms**
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 ### Permissions
 - ✅ **Commercial use**
 - ✅ **Modification**
@@ -663,13 +657,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - ❌ **No liability**
 - ❌ **No warranty**
 
-## 🙏 Acknowledgments
+## Acknowledgments 🙏
 
 - **Inspiration**: Classic terminal interfaces
 - **Technologies**: HTML5, CSS3, ES6+, Docker, nginx
 - **Community**: Open source contributors
 
-## 📞 Support
+## Support 📞
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/terminal-portfolio/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/terminal-portfolio/discussions)
