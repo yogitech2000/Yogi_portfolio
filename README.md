@@ -5,9 +5,9 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 ![Terminal Portfolio](https://img.shields.io/badge/Status-Production--Ready-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
-![CSS Badge](https://img.shields.io)
+![CSS](https://img.shields.io/badge/%20CSS%20)
 ![javaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
-![html](https://img.shields.io/badge/any%20text-you%20like-blue)
+![html](https://img.shields.io/badge/%20HTML%20)
  
 
 ## ✨ Features
@@ -36,7 +36,7 @@ A sleek, interactive terminal-style portfolio website built with vanilla HTML, C
 - [Contributing](#contributing)
 - [License](#license)
 
-## 📋 Prerequisites
+##  Prerequisites📋
 
 Before you begin, ensure you have the following installed:
 
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
 - **Storage**: 500MB free space
 - **Network**: Internet connection for Docker pulls
 
-## 🚀 Quick Start
+##  Quick Start🚀
 
 ### Option 1: One-Command Deployment (Recommended)
 
