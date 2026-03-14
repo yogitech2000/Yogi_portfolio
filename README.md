@@ -2,6 +2,11 @@
 
 A clean, interactive developer portfolio built as a terminal-inspired webpage with a resume showcase and one-click PDF download.
 
+![Terminal Portfolio](https://img.shields.io/badge/Status-Production--Ready-green)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
+![javaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
+
 ## 🚀 Features
 
 - Terminal-style CLI experience with typed commands and command history
@@ -26,7 +31,8 @@ A clean, interactive developer portfolio built as a terminal-inspired webpage wi
 3. Start a local server (recommended):
 
 ```bash
-cd "d:\Yogi Personal\Projects\Yogi_portfolio\Yogi_portfolio"
+git clone https://github.com/yogitech2000/Yogi_portfolio.git
+cd Yogi_portfolio
 python -m http.server 8000
 ```
 
