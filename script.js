@@ -1,6 +1,6 @@
 const terminal = document.getElementById("terminal");
 
-const promptText = "visitor@yogaganapathi:~$ ";
+const promptText = "portfolio@yogaganapathi:~$ ";
 
 let commandHistory = [];
 let historyIndex = -1;
