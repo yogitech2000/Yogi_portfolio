@@ -56,10 +56,13 @@ IaC
 
 Monitoring
 New Relic
+BigPanda
+Moogsoft
 
 Other
 Linux
-Git
+Windows
+Git/GitHUb
 DNS
 SQL
 `,
@@ -71,8 +74,7 @@ Trimble Inc
 Site Reliability Engineer
 
 Tata Consultancy Services
-Automation Developer
-Network Administrator (NOC)
+Devops Engineer
 
 Type:
 
@@ -83,11 +85,7 @@ to know more
 `,
 
 "experience tcs": `
-Tata Consultancy Services
-
-Roles
-Network Administrator (NOC)
-Automation Developer
+Tata Consultancy Services - Devops Engineer
 
 Responsibilities
 
@@ -120,6 +118,9 @@ https://linkedin.com/in/yogaganapathi-p
 
 Email
 yogaganapathi23042000@gmail.com
+
+GitHub
+https://github.com/yogitech2000
 `
 
 };
