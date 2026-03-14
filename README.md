@@ -3,7 +3,6 @@
 A clean, interactive developer portfolio built as a terminal-inspired webpage with a resume showcase and one-click PDF download.
 
 ![Terminal Portfolio](https://img.shields.io/badge/Status-Production--Ready-green)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 ![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)
 ![javaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
 
