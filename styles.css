@@ -40,7 +40,7 @@ body {
 .resume-image {
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 20px;
     border: 2px solid #333;
     display: block;
     margin-bottom: 12px;
@@ -75,12 +75,63 @@ body {
     background: #0087d1;
     transform: translateY(-1px);
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
 
+.social-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    clip-path: url(#squircleClip);
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45);
+}
+
+.social-icon.github {
+    background: linear-gradient(135deg, #4b5563 0%, #111827 100%);
+    border-color: rgba(148, 163, 184, 0.45);
+}
+
+.social-icon.linkedin {
+    background: linear-gradient(135deg, #0a66c2 0%, #1f4c8f 100%);
+    border-color: rgba(14, 115, 220, 0.4);
+}
+
+.social-icon.whatsapp {
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    border-color: rgba(37, 211, 102, 0.45);
+}
+
+.social-icon.email {
+    background: linear-gradient(135deg, #f97316 0%, #f43f5e 100%);
+    border-color: rgba(248, 113, 37, 0.45);
+}
+
+.social-svg {
+    width: 26px;
+    height: 26px;
+}
 .terminal-shell {
     background: #070a12;
     border: 1px solid #2a3046;
-    border-radius: 12px;
-    height: min(84vh, 680px);
+    border-radius: 20px;
+    height: min(94vh, 680px);
     display: flex;
     flex-direction: column;
     padding: 10px;
